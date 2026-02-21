@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@oradb_low?TNS_ADMIN=C:/oracle_db/wallet
+    username: ADMIN
+    password: "Zaq1xsw2#$woo"
+    driver-class-name: oracle.jdbc.OracleDriver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+

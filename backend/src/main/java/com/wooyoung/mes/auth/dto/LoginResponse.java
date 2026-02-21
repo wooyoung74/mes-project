@@ -1,0 +1,13 @@
+package com.wooyoung.mes.auth.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@Getter
+@AllArgsConstructor
+public class LoginResponse {
+
+    private String message;
+    private String userId;
+    private String role;
+}
