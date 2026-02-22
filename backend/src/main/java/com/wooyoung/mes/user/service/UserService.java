@@ -185,8 +185,7 @@ public class UserService {
      */
     @Transactional
     public void logout(String userId) {
-        refreshTokenRepository.findByUserId(userId)
-                .ifPresent(refreshTokenRepository::delete);
+        refreshTokenRepository.findByUserId(userId).ifPresent(refreshTokenRepository::delete);
     }
     
     /**
